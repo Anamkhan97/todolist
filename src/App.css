@@ -1,0 +1,104 @@
+
+body {
+  background: lightblue;
+}
+
+form {
+  display: inline;
+}
+
+
+
+.to-do-app {
+  box-sizing: border-box;
+  width: 550px;
+  margin: 40px auto;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #252525;
+}
+
+.header h1 {
+  background: #444;
+  padding: 7px;
+  border-radius: 3px 3px 0 0 ;
+  font-size: 36px;
+  margin: 0;
+  color: white;
+  font-weight: lighter;
+  
+}
+
+.create-new {
+  border-top: 1px solid rgb(190, 152, 189);
+  background-color: peachpuff;
+  width: 100%;
+}
+.create-new button{
+  background: rgb(23, 23, 124);
+    box-sizing: border-box;  
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+}
+ .create-new input {
+    box-sizing: border-box;
+    width: 75%;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+  }
+ 
+
+.items-list {
+  background:peachpuff;
+  border-radius: 3px;
+}
+
+
+.to-do-item {
+  padding: 10px 0 10px 0;
+  margin: 1px 0 1px 0;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color:black;
+  font-weight:bolder;
+  user-select: none;
+}
+
+.name {
+  margin-left: 10px;
+}
+ .name  input {
+    width: 350px;
+    color: #333;
+    padding: 5px;
+    border: none;
+    border-radius: 1px;
+  }
+
+  .actions {
+    margin-right: 10px;
+  }
+  .actions button {
+      padding: 7px;
+      border-radius: 5px;
+      border: none;
+      margin-right: 10px;
+      background: rgb(23, 23, 124);
+      color: white;
+      font-weight: lighter;
+      
+  }
